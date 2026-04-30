@@ -7,6 +7,7 @@ import Index from "./pages/Index.tsx";
 import Estudiantes from "./pages/Estudiantes.tsx";
 import Docentes from "./pages/Docentes.tsx";
 import Padres from "./pages/Padres.tsx";
+import Login from "./pages/Login.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/estudiantes" element={<Estudiantes />} />
           <Route path="/docentes" element={<Docentes />} />
           <Route path="/padres" element={<Padres />} />
+          <Route path="/login" element={<Login />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

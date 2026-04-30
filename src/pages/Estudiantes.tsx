@@ -10,13 +10,13 @@ const Estudiantes = () => {
       <Header />
 
       {/* Hero */}
-      <section className="gradient-students py-16">
+      <section className="bg-gradient-to-br from-background via-secondary to-accent/40 py-16 border-b border-border">
         <div className="container flex flex-col md:flex-row items-center gap-8">
           <div className="flex-1">
-            <h1 className="font-heading text-4xl font-extrabold text-students-foreground mb-3">
+            <h1 className="font-heading text-4xl font-extrabold text-foreground mb-3">
               Módulo Estudiantes
             </h1>
-            <p className="text-students-foreground/80 text-lg max-w-md">
+            <p className="text-muted-foreground text-lg max-w-md">
               Información clara, accesible y confiable pensada especialmente para ti. Aprende sobre tu cuerpo, relaciones saludables y tus derechos.
             </p>
           </div>

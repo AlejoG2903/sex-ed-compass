@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import { BookOpen } from "lucide-react";
+import { BookOpen, LogIn } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const Header = () => {
   return (
@@ -21,6 +22,12 @@ const Header = () => {
           <Link to="/padres" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
             Padres
           </Link>
+          <Button asChild size="sm">
+            <Link to="/login">
+              <LogIn className="h-4 w-4" />
+              Ingresar
+            </Link>
+          </Button>
         </nav>
       </div>
     </header>

@@ -1,34 +1,35 @@
-import { Link } from "react-router-dom";
-import { BookOpen, LogIn } from "lucide-react";
+import { Link, useNavigate } from "react-router-dom";
+import { BookOpen, LogOut } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { clearRole, getRole } from "@/lib/auth";
 
 const Header = () => {
+  const navigate = useNavigate();
+  const role = getRole();
+  const handleLogout = () => {
+    clearRole();
+    navigate("/", { replace: true });
+  };
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-card/80 backdrop-blur-md">
       <div className="container flex h-16 items-center justify-between">
-        <Link to="/" className="flex items-center gap-2">
+        <Link to={role ? `/${role}` : "/"} className="flex items-center gap-2">
           <BookOpen className="h-7 w-7 text-primary" />
           <span className="font-heading text-xl font-bold text-foreground">
             ESI
           </span>
         </Link>
-        <nav className="hidden md:flex items-center gap-6">
-          <Link to="/estudiantes" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-            Estudiantes
-          </Link>
-          <Link to="/docentes" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-            Docentes
-          </Link>
-          <Link to="/padres" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-            Padres
-          </Link>
-          <Button asChild size="sm">
-            <Link to="/login">
-              <LogIn className="h-4 w-4" />
-              Ingresar
-            </Link>
-          </Button>
-        </nav>
+        {role && (
+          <nav className="flex items-center gap-4">
+            <span className="hidden sm:inline text-sm text-muted-foreground capitalize">
+              Módulo: <span className="text-foreground font-medium">{role}</span>
+            </span>
+            <Button size="sm" variant="outline" onClick={handleLogout}>
+              <LogOut className="h-4 w-4" />
+              Salir
+            </Button>
+          </nav>
+        )}
       </div>
     </header>
   );

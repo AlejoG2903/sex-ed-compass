@@ -1,12 +1,13 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ModuleCard from "@/components/ModuleCard";
-import AccessForm from "@/components/AccessForm";
 import heroImage from "@/assets/hero-education.jpg";
 import studentsImg from "@/assets/students-module.png";
 import teachersImg from "@/assets/teachers-module.png";
 import parentsImg from "@/assets/parents-module.png";
-import { Heart, Shield, Users } from "lucide-react";
+import { Heart, Shield, Users, LogIn } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
@@ -26,6 +27,12 @@ const Index = () => {
               <p className="text-lg text-muted-foreground max-w-md">
                 Un espacio seguro y confiable para aprender sobre educación sexual integral. Información basada en evidencia para estudiantes, docentes y padres de familia.
               </p>
+              <Button asChild size="lg" className="mt-6">
+                <Link to="/login">
+                  <LogIn className="h-4 w-4" />
+                  Ingresar a mi módulo
+                </Link>
+              </Button>
             </div>
             <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
               <img
@@ -64,9 +71,6 @@ const Index = () => {
       {/* Modules Bento Grid */}
       <section className="py-16">
         <div className="container">
-          <div className="mb-12">
-            <AccessForm />
-          </div>
           <h2 className="font-heading text-3xl font-bold text-foreground text-center mb-3">
             Explora los Módulos
           </h2>

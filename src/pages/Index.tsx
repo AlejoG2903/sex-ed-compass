@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ModuleCard from "@/components/ModuleCard";
+import AccessForm from "@/components/AccessForm";
 import heroImage from "@/assets/hero-education.jpg";
 import studentsImg from "@/assets/students-module.png";
 import teachersImg from "@/assets/teachers-module.png";
@@ -63,6 +64,9 @@ const Index = () => {
       {/* Modules Bento Grid */}
       <section className="py-16">
         <div className="container">
+          <div className="mb-12">
+            <AccessForm />
+          </div>
           <h2 className="font-heading text-3xl font-bold text-foreground text-center mb-3">
             Explora los Módulos
           </h2>

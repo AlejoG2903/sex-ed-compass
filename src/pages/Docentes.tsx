@@ -9,13 +9,13 @@ const Docentes = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
 
-      <section className="gradient-teachers py-16">
+      <section className="bg-gradient-to-br from-background via-secondary to-accent/40 py-16 border-b border-border">
         <div className="container flex flex-col md:flex-row items-center gap-8">
           <div className="flex-1">
-            <h1 className="font-heading text-4xl font-extrabold text-teachers-foreground mb-3">
+            <h1 className="font-heading text-4xl font-extrabold text-foreground mb-3">
               Módulo Docentes
             </h1>
-            <p className="text-teachers-foreground/80 text-lg max-w-md">
+            <p className="text-muted-foreground text-lg max-w-md">
               Herramientas pedagógicas, guías didácticas y estrategias para abordar la Educación Sexual Integral en el aula.
             </p>
           </div>

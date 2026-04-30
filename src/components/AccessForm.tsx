@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
 import { LogIn, KeyRound } from "lucide-react";
+import { setRole as persistRole, type Role } from "@/lib/auth";
 
 const ACCESS_CODES: Record<string, { code: string; path: string; label: string }> = {
   docentes: { code: "0210", path: "/docentes", label: "Docentes" },
@@ -26,11 +27,13 @@ const AccessForm = () => {
       return;
     }
     if (isStudent) {
+      persistRole("estudiantes");
       navigate("/estudiantes");
       return;
     }
     const entry = ACCESS_CODES[role];
     if (entry && code.trim() === entry.code) {
+      persistRole(role as Role);
       toast.success(`Acceso concedido al módulo de ${entry.label}`);
       navigate(entry.path);
     } else {

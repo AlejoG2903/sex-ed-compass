@@ -13,7 +13,7 @@ const Login = () => {
               <img
                 src={loginBg}
                 alt="Educación Sexual Integral - ESI"
-                className="w-full max-w-xl h-auto object-contain"
+                className="w-full max-w-md h-auto object-contain"
               />
             </div>
             <div className="hidden lg:block w-px bg-foreground/15" />

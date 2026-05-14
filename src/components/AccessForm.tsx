@@ -42,11 +42,8 @@ const AccessForm = () => {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="bg-card border border-border rounded-2xl shadow-lg p-6 md:p-8 max-w-2xl mx-auto"
-    >
-      <div className="text-center mb-6">
+    <form onSubmit={handleSubmit} className="w-full max-w-md">
+      <div className="mb-6">
         <h2 className="font-heading text-2xl font-bold text-foreground">
           Ingresa a tu módulo
         </h2>

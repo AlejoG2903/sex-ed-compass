@@ -7,7 +7,7 @@ const Login = () => {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1 flex" style={{ backgroundColor: "hsl(340 75% 92%)" }}>
-        <div className="w-full grid lg:grid-cols-[1fr_auto_1fr] items-center min-h-[60vh]">
+        <div className="w-full grid lg:grid-cols-[1fr_auto_1fr] items-stretch h-full">
           <div className="flex justify-center py-10 lg:pr-12">
             <img
               src={loginBg}

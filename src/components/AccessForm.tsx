@@ -55,7 +55,7 @@ const AccessForm = () => {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-4">
+      <div className="space-y-4">
         <div className="space-y-2">
           <Label htmlFor="role">Perfil</Label>
           <Select value={role} onValueChange={(v) => { setRole(v); setCode(""); }}>

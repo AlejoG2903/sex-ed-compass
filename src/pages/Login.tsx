@@ -7,13 +7,20 @@ const Login = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main
-        className="flex-1 py-16 relative bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${loginBg})` }}
-      >
-        <div className="absolute inset-0 bg-background/60 backdrop-blur-sm" />
-        <div className="container relative">
-          <AccessForm />
+      <main className="flex-1 bg-secondary/40">
+        <div className="container py-10 lg:py-16">
+          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
+            <div className="hidden lg:flex justify-center">
+              <img
+                src={loginBg}
+                alt="Educación Sexual Integral - ESI"
+                className="w-full max-w-xl h-auto object-contain"
+              />
+            </div>
+            <div className="w-full">
+              <AccessForm />
+            </div>
+          </div>
         </div>
       </main>
       <Footer />

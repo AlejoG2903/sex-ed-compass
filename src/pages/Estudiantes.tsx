@@ -70,7 +70,7 @@ const Estudiantes = () => {
                 <li>Cambios hormonales que influyen en el estado de ánimo.</li>
                 <li>Aceleración del crecimiento físico.</li>
               </ul>
-              <p className="text-sm italic">Estos cambios no ocurren al mismo ritmo en todas las personas, lo cual es importante normalizar dentro del aula para evitar comparaciones o burlas.</p>
+              <p>Estos cambios no ocurren al mismo ritmo en todas las personas, lo cual es importante normalizar dentro del aula para evitar comparaciones o burlas.</p>
 
               <p className="font-semibold">Cambios emocionales</p>
               <p>Debido al desarrollo cerebral, hormonal y social, se pueden observar:</p>
@@ -115,7 +115,7 @@ const Estudiantes = () => {
                 <li>Favorecer la autoestima y el respeto.</li>
                 <li>Orientar desde el acompañamiento.</li>
               </ul>
-              <p className="text-sm italic">La adolescencia no debe verse como una etapa problemática, sino como un proceso de crecimiento en el que los estudiantes necesitan guía, comprensión y espacios seguros para desarrollarse integralmente.</p>
+              <p>La adolescencia no debe verse como una etapa problemática, sino como un proceso de crecimiento en el que los estudiantes necesitan guía, comprensión y espacios seguros para desarrollarse integralmente.</p>
               <p>La ESI fomenta el cuidado del cuerpo como un espacio propio que debe ser respetado, promoviendo hábitos de higiene, autocuidado y reconocimiento de límites personales. Tu cuerpo te pertenece y es importante que lo conozcas y valores.</p>
         </ContentSection>
 

@@ -6,11 +6,11 @@ const Footer = () => {
       <div className="container">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <BookOpen className="h-5 w-5 text-primary" />
-            <span className="font-heading font-semibold text-foreground">Educación Sexual Integral</span>
+            <BookOpen className="h-6 w-6 text-primary" />
+            <span className="font-heading font-semibold text-foreground">ESI</span>
           </div>
           <p className="text-sm text-muted-foreground flex items-center gap-1">
-            Hecho con <Heart className="h-3 w-3 text-accent" /> para la educación
+            Aprender sobre sexualidad también es cuidarse <Heart className="h-5 w-5 text-accent" />
           </p>
         </div>
       </div>

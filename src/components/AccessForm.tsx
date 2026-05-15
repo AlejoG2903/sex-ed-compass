@@ -9,8 +9,8 @@ import { LogIn, KeyRound } from "lucide-react";
 import { setRole as persistRole, type Role } from "@/lib/auth";
 
 const ACCESS_CODES: Record<string, { code: string; path: string; label: string }> = {
-  docentes: { code: "0210", path: "/docentes", label: "Docentes" },
-  padres: { code: "2009", path: "/padres", label: "Padres" },
+  docentes: { code: "020260", path: "/docentes", label: "Docentes" },
+  padres: { code: "020261", path: "/padres", label: "Padres" },
 };
 
 const AccessForm = () => {
@@ -52,7 +52,7 @@ const AccessForm = () => {
         </p>
       </div>
 
-      <div className="space-y-4">
+      <div className="space-y-3">
         <div className="space-y-2">
           <Label htmlFor="role">Perfil</Label>
           <Select value={role} onValueChange={(v) => { setRole(v); setCode(""); }}>

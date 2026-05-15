@@ -7,14 +7,14 @@ const Login = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1 flex items-center" style={{ backgroundColor: "hsl(340 75% 92%)" }}>
+      <main className="flex-1 flex items-center" style={{ backgroundColor: "hsl(325 60% 92%)" }}>
         <div className="container py-10 lg:py-16">
-          <div className="grid lg:grid-cols-2 gap-10 lg:gap-16 items-center">
-            <div className="flex justify-center">
+          <div className="grid lg:grid-cols-[1.35fr_0.65fr] gap-10 lg:gap-16 items-center">
+            <div className="flex justify-center w-full">
               <img
                 src={loginBg}
                 alt="Educación Sexual Integral - ESI"
-                className="w-full max-w-2xl h-auto object-contain"
+                className="w-full max-w-none h-auto object-contain"
               />
             </div>
             <div className="flex justify-center">

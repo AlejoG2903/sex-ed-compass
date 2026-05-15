@@ -40,7 +40,7 @@ const Docentes = () => {
 
           {/* MÓDULO 1 */}
           <AccordionItem value="modulo1">
-            <AccordionTrigger className="text-base">MÓDULO 1. ¿Qué es la Educación Sexual Integral?</AccordionTrigger>
+            <AccordionTrigger className="text-base text-left">¿Qué es la Educación Sexual Integral?</AccordionTrigger>
             <AccordionContent className="space-y-4">
               <p>
                 La UNESCO define la Educación Integral en Sexualidad como un proceso basado en un currículo que permite enseñar y aprender acerca de los aspectos cognitivos, emocionales, físicos y sociales de la sexualidad. Su objetivo es preparar a niñas, niños y adolescentes con conocimientos, habilidades, actitudes y valores que les permitan cuidar su salud, construir relaciones respetuosas y tomar decisiones responsables.
@@ -87,7 +87,7 @@ const Docentes = () => {
 
           {/* MÓDULO 2 */}
           <AccordionItem value="modulo2">
-            <AccordionTrigger className="text-base">MÓDULO 2. La adolescencia y sus cambios</AccordionTrigger>
+            <AccordionTrigger className="text-base text-left">La adolescencia y sus cambios</AccordionTrigger>
             <AccordionContent className="space-y-4">
               <p>
                 La adolescencia es una etapa del desarrollo humano en la que ocurren transformaciones profundas a nivel biológico, psicológico, emocional y social. No se trata únicamente de cambios físicos, sino de un proceso integral en el que la persona va construyendo su identidad, su autonomía y su forma de relacionarse con el entorno.
@@ -174,7 +174,7 @@ const Docentes = () => {
 
           {/* MÓDULO 3 */}
           <AccordionItem value="modulo3">
-            <AccordionTrigger className="text-base">MÓDULO 3. La sexualidad y sus dimensiones</AccordionTrigger>
+            <AccordionTrigger className="text-base text-left">La sexualidad y sus dimensiones</AccordionTrigger>
             <AccordionContent className="space-y-4">
               <p>
                 La Organización Mundial de la Salud define la sexualidad como una dimensión central del ser humano presente a lo largo de toda la vida. Incluye: sexo, identidad y roles de género, orientación sexual, erotismo, placer, intimidad y reproducción. La sexualidad se expresa mediante pensamientos, emociones, valores, comportamientos y relaciones.
@@ -197,7 +197,7 @@ const Docentes = () => {
 
           {/* MÓDULO 4 */}
           <AccordionItem value="modulo4">
-            <AccordionTrigger className="text-base">MÓDULO 4. Género, respeto y diversidad</AccordionTrigger>
+            <AccordionTrigger className="text-base text-left">Género, respeto y diversidad</AccordionTrigger>
             <AccordionContent className="space-y-4">
               <p className="font-semibold">Roles y estereotipos de género</p>
               <p>Los roles de género son aprendidos socialmente y muchas veces generan desigualdad, dominación o discriminación. La ESI busca:</p>
@@ -260,7 +260,7 @@ const Docentes = () => {
 
           {/* MÓDULO 5 */}
           <AccordionItem value="modulo5">
-            <AccordionTrigger className="text-base">MÓDULO 5. Intimidad, autocuidado y prevención</AccordionTrigger>
+            <AccordionTrigger className="text-base text-left">Intimidad, autocuidado y prevención</AccordionTrigger>
             <AccordionContent className="space-y-4">
               <p className="font-semibold">Prevención de la violencia</p>
               <p>
@@ -369,7 +369,7 @@ const Docentes = () => {
 
           {/* MÓDULO 6 */}
           <AccordionItem value="modulo6">
-            <AccordionTrigger className="text-base">MÓDULO 6. Marco legal</AccordionTrigger>
+            <AccordionTrigger className="text-base text-left">Marco legal</AccordionTrigger>
             <AccordionContent className="space-y-4">
               <p>La Educación Sexual Integral (ESI) no es un tema opcional dentro de las instituciones educativas, sino un enfoque respaldado por un marco legal que reconoce su importancia en la formación integral de los estudiantes y en la garantía de sus derechos.</p>
 
@@ -392,7 +392,7 @@ const Docentes = () => {
 
           {/* MÓDULO 7 */}
           <AccordionItem value="modulo7">
-            <AccordionTrigger className="text-base">MÓDULO 7. Señales de alerta</AccordionTrigger>
+            <AccordionTrigger className="text-base text-left">Señales de alerta</AccordionTrigger>
             <AccordionContent className="space-y-4">
               <p>
                 La detección temprana es una de las funciones más importantes del docente, ya que permite identificar a tiempo posibles situaciones de riesgo que afectan el bienestar físico, emocional o social de los estudiantes. Muchas problemáticas no se expresan de manera directa, sino a través de cambios sutiles en el comportamiento, el estado emocional o la forma de relacionarse.
@@ -445,7 +445,7 @@ const Docentes = () => {
 
           {/* MÓDULO 8 */}
           <AccordionItem value="modulo8">
-            <AccordionTrigger className="text-base">MÓDULO 8. Gestión emocional</AccordionTrigger>
+            <AccordionTrigger className="text-base text-left">Gestión emocional</AccordionTrigger>
             <AccordionContent className="space-y-4">
               <p>
                 El trabajo de un docente dentro de la ESI implica enfrentar situaciones sensibles que pueden generar impacto emocional, como casos de violencia, sospecha de abuso o problemáticas familiares de los estudiantes. Por esta razón, es fundamental que el docente también desarrolle habilidades de gestión emocional.

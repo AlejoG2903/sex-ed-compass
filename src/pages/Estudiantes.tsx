@@ -37,14 +37,86 @@ const Estudiantes = () => {
 
         <ContentSection title="Desarrollo del cuerpo y cambios en la adolescencia">
           <p>
-            Durante la adolescencia ocurren cambios físicos, hormonales y emocionales que forman parte del desarrollo natural del ser humano. Es completamente normal tener preguntas sobre lo que está sucediendo en tu cuerpo.
-          </p>
-          <p>
-            En esta etapa se presentan transformaciones como el crecimiento corporal, el desarrollo de caracteres sexuales secundarios, los cambios hormonales y el inicio de procesos biológicos como la menstruación o la producción de espermatozoides. Comprender estos procesos te ayuda a vivir esta etapa con mayor seguridad y autoestima.
-          </p>
-          <p>
-            La ESI fomenta el cuidado del cuerpo como un espacio propio que debe ser respetado, promoviendo hábitos de higiene, autocuidado y reconocimiento de límites personales. Tu cuerpo te pertenece y es importante que lo conozcas y valores.
-          </p>
+                La adolescencia es una etapa del desarrollo humano en la que ocurren transformaciones profundas a nivel biológico, psicológico, emocional y social. No se trata únicamente de cambios físicos, sino de un proceso integral en el que la persona va construyendo su identidad, su autonomía y su forma de relacionarse con el entorno.
+              </p>
+              <p>
+                Durante este periodo, los adolescentes comienzan a desarrollar mayor independencia, cuestionan normas, exploran nuevas experiencias y consolidan su identidad personal. También es una etapa en la que se fortalecen las relaciones sociales y se da una transición progresiva hacia la vida adulta.
+              </p>
+
+              <p className="font-semibold">Cambios corporales (biológicos y físicos)</p>
+              <p>Estos cambios pueden generar curiosidad, inseguridad o preocupación, por lo que es importante que la escuela brinde información clara y sin prejuicios.</p>
+              <p className="font-medium">En las mujeres:</p>
+              <ul className="list-disc list-inside ml-4 space-y-1">
+                <li>Desarrollo de los senos.</li>
+                <li>Ensanchamiento de caderas.</li>
+                <li>Aparición de vello en axilas y zona púbica.</li>
+                <li>Inicio del ciclo menstrual (menarquia).</li>
+                <li>Cambios en la piel como aumento de grasa o aparición de acné.</li>
+                <li>Estirón de crecimiento en talla y peso.</li>
+              </ul>
+              <p className="font-medium">En los hombres:</p>
+              <ul className="list-disc list-inside ml-4 space-y-1">
+                <li>Crecimiento de los testículos y pene.</li>
+                <li>Aparición de vello facial, axilar y púbico.</li>
+                <li>Cambio en la voz (más grave).</li>
+                <li>Aumento de masa muscular.</li>
+                <li>Primeras eyaculaciones o sueños húmedos.</li>
+                <li>Estirón de crecimiento en talla y peso.</li>
+              </ul>
+              <p className="font-medium">Cambios en ambos sexos:</p>
+              <ul className="list-disc list-inside ml-4 space-y-1">
+                <li>Mayor sudoración y cambios en el olor corporal.</li>
+                <li>Desarrollo de caracteres sexuales secundarios.</li>
+                <li>Cambios hormonales que influyen en el estado de ánimo.</li>
+                <li>Aceleración del crecimiento físico.</li>
+              </ul>
+              <p className="text-sm italic">Estos cambios no ocurren al mismo ritmo en todas las personas, lo cual es importante normalizar dentro del aula para evitar comparaciones o burlas.</p>
+
+              <p className="font-semibold">Cambios emocionales</p>
+              <p>Debido al desarrollo cerebral, hormonal y social, se pueden observar:</p>
+              <ul className="list-disc list-inside ml-4 space-y-1">
+                <li>Cambios frecuentes de ánimo sin una causa evidente.</li>
+                <li>Mayor sensibilidad emocional ante críticas o comentarios.</li>
+                <li>Necesidad de privacidad y espacio personal.</li>
+                <li>Búsqueda de independencia emocional respecto a la familia.</li>
+                <li>Mayor importancia de la aceptación por parte del grupo social.</li>
+                <li>Incremento de la autoestima fluctuante.</li>
+                <li>Dificultad para manejar emociones intensas como enojo, tristeza o frustración.</li>
+                <li>Desarrollo progresivo de la autorreflexión y autoconciencia.</li>
+              </ul>
+
+              <p className="font-semibold">Cambios sociales</p>
+              <p>Durante esta etapa, los adolescentes:</p>
+              <ul className="list-disc list-inside ml-4 space-y-1">
+                <li>Dedican más tiempo a sus amistades que a la familia.</li>
+                <li>Buscan pertenecer a grupos sociales para sentirse aceptados.</li>
+                <li>Experimentan mayor interés en relaciones afectivas o románticas.</li>
+                <li>Pueden presentar mayor influencia del grupo de pares.</li>
+                <li>Surgen conflictos relacionados con la búsqueda de autonomía.</li>
+              </ul>
+
+              <p className="font-semibold">Cambios cognitivos</p>
+              <p>En esta etapa se desarrolla la capacidad de pensamiento más complejo:</p>
+              <ul className="list-disc list-inside ml-4 space-y-1">
+                <li>Mayor capacidad de razonamiento lógico.</li>
+                <li>Desarrollo del pensamiento crítico.</li>
+                <li>Capacidad para reflexionar sobre el futuro.</li>
+                <li>Búsqueda de identidad personal.</li>
+                <li>Mayor cuestionamiento de normas y reglas.</li>
+                <li>Interés por tomar decisiones propias.</li>
+              </ul>
+
+              <p className="font-semibold">Importancia de comprender estos cambios</p>
+              <p>Comprender los cambios de la adolescencia es fundamental para que los docentes puedan:</p>
+              <ul className="list-disc list-inside ml-4 space-y-1">
+                <li>Evitar interpretaciones erróneas del comportamiento de los adolescentes.</li>
+                <li>Brindar acompañamiento emocional adecuado.</li>
+                <li>Promover ambientes libres de burlas o discriminación.</li>
+                <li>Favorecer la autoestima y el respeto.</li>
+                <li>Orientar desde el acompañamiento.</li>
+              </ul>
+              <p className="text-sm italic">La adolescencia no debe verse como una etapa problemática, sino como un proceso de crecimiento en el que los estudiantes necesitan guía, comprensión y espacios seguros para desarrollarse integralmente.</p>
+              <p>La ESI fomenta el cuidado del cuerpo como un espacio propio que debe ser respetado, promoviendo hábitos de higiene, autocuidado y reconocimiento de límites personales. Tu cuerpo te pertenece y es importante que lo conozcas y valores.</p>
         </ContentSection>
 
         <ContentSection title="Emociones, identidad y relaciones saludables">
